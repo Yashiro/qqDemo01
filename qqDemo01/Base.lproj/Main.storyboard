@@ -42,6 +42,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V0d-Sg-pS9">
                                 <rect key="frame" x="164" y="203" width="46" height="30"/>
                                 <state key="normal" title="登录"/>
+                                <connections>
+                                    <action selector="login" destination="BYZ-38-t0r" eventType="touchUpInside" id="m6u-tY-WUf"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.89019599999999999" green="0.83529399999999998" blue="0.75686299999999995" alpha="1" colorSpace="calibratedRGB"/>

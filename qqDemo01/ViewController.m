@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+- (IBAction)login;
 
 @end
 
@@ -24,4 +25,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)login {
+    [self.view endEditing:YES];
+    NSLog(@"It's already logined!");
+}
 @end
